@@ -1,5 +1,5 @@
 # Mercedes-Benz-Greener-Manufacturing-Bayesian-Optimization
-An implementation on tuning hyper-parameters in a regression problem (Mercedes-Benz Greener Manufacturing challenge) using Baysian Optimization (Scikit-Optimize).
+An implementation on tuning hyper-parameters in a regression problem ([Mercedes-Benz Greener Manufacturing challenge](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing) ) using Baysian Optimization (Scikit-Optimize).
 
 
 Provided are a number of python scripts, each containing a pipeline composed of dimensionality reduction (pca or k-pca) and regression models ( linear, rigde regression etc). The parameters of each of these pipelines were tuned using scikit-optimize's Gaussian process minimization to obtained best possible r2 score over k-fold cross validation score. An wrapper for Bayesian optimization is also provided in `BayesianOpt.py`. 
